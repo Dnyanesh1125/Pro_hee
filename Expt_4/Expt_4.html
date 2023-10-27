@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<script src="Expt_4.js"></script>
+
+<center>
+    <h1>String Comparison </h1>
+</center>
+
+<body>
+    <center>
+        <h2>Abhijeet Manale</h2>
+        <h3>Roll No.: 42144</h3>
+        Enter First String : <input type="string" id="str1"></inputtype>
+        <br><br>
+        Enter Second String : <input type="string" id="str2"></inputtype>
+        <br><br>
+        <hr>   
+        <h3>User Defined</h3>
+        <button onclick="compuser()">Compare Using (user defined function)</button>
+        <p id="output5"></p>
+        <hr>   
+        <h3>Using LocaleCompare</h3>
+        <button onclick="compLocale()">Compare Using (Locale Compare)</button>
+        <p id="output1"></p>
+        <hr>
+
+        <h3> Using Length & == Operator</h3>
+        <button onclick="compEqEq()">Compare (Using ==)</button>
+        <p id="output2"></p>
+        <p id="output3"></p>
+        <hr>
+
+        <h3> Using === Operator</h3>
+        <button onclick="compEqEqEq()">Compare (Using ===)</button>
+        <p id="output4"></p>
+        <hr>
+    </center>
+</body>
+
+</html>
